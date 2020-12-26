@@ -1,0 +1,243 @@
+.order-status {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.text-header-order {
+    border: 1px solid #ccc;
+    display: flex;
+    padding: .5rem;
+}
+
+.text-left-header-order {
+    flex: auto;
+}
+
+.text-right-status {
+    color: orange;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.name-user-address,
+.phone-user-address,
+.user-address {
+    padding-bottom: .5rem;
+    text-transform: capitalize;
+}
+
+.info-user .box-image-user {
+    border: 1px solid #ccc;
+    padding: .3rem;
+}
+
+.item-user {
+    margin: 1rem .3rem;
+}
+
+.item-link {
+    margin: .2rem 0;
+    cursor: pointer;
+}
+
+.item-icon-user {
+    background: orange;
+    margin-bottom: 5px;
+    color: #fff;
+    padding: 4px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-account {
+    background: green;
+}
+
+.icon-notification {
+    background: yellow
+}
+
+.item-link .item-title-cate {
+    color: #000;
+}
+
+.item-link .active {
+    color: red
+}
+
+.box-icon {
+    background: navajowhite;
+    border: 3px solid #bcbac5;
+    width: 65px;
+    height: 65px;
+    margin: auto;
+    font-size: 2rem;
+    color: #bcbac5;
+    z-index: 10;
+    position: relative;
+}
+
+.box-icon-active {
+    border: 3px solid #493ea5;
+    color: #493ea5;
+}
+
+.horizontal-line {
+    height: .25rem;
+    width: 100%;
+    top: 30%;
+}
+
+.line {
+    height: 100%;
+    background: #bcbac5;
+    margin: 0 11rem 0 9rem;
+}
+
+.line-active {
+    background: #493ea5;
+}
+
+.order-address {
+    margin: 1rem 0;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+.text-address {
+    font-size: 1.3rem;
+    color: #615f5f;
+    padding-bottom: .5rem;
+}
+
+.content-address {
+    margin: .5rem 0;
+    border: 1px solid #fff;
+    padding: 0.75rem 0 .25rem;
+}
+
+.list-address {
+    display: none;
+    text-transform: capitalize;
+}
+
+.choose-address {
+    text-transform: capitalize;
+}
+
+.text-header-product,
+.status-header-product {
+    flex: auto;
+}
+
+.order-product {
+    border: solid 1px #ccc;
+    border-radius: .25rem;
+    padding: 1rem;
+}
+
+.payment-money-product {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-size: .8rem;
+}
+
+.flex-auto {
+    flex: auto;
+}
+
+.text-red {
+    color: red;
+}
+
+.box___payment {
+    background: red;
+    height: 100px;
+    margin: 0 3.2rem;
+    border-radius: 50%;
+    z-index: 1;
+    position: relative;
+}
+
+.show-text {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: .25rem;
+    margin-top: 1rem;
+}
+
+.box-choose-address {
+    padding: 0rem 0;
+}
+
+.item-address-befor {
+    display: flex;
+}
+
+.check-radio-box {
+    margin-right: .25rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: .25rem;
+}
+
+.address-befor {
+    font-size: .8rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+.title-address {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: .25rem;
+}
+
+.add-address-new {
+    margin: .5rem 0;
+}
+
+.show {
+    display: block;
+}
+
+span.showAddress {
+    text-transform: capitalize;
+}
+
+.btnOrange {
+    outline: none;
+    border: 1px solid #fff;
+    background: #f05d40;
+    min-width: 200px;
+    color: #fff;
+}
+
+.btnOrange:hover,
+.btnOrange:active,
+.btnOrange:focus {
+    background: #5d37e6;
+}
+
+section.user-cart {
+    padding-bottom: 1rem;
+}
+
+.createAddress {
+    display: none
+}
+
+.addresses {
+    list-style: none;
+    padding-left: 0;
+}

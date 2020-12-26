@@ -1,0 +1,163 @@
+.flex-1 {
+    flex: 1;
+}
+
+.color-white {
+    color: #fff;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: red;
+    background-color: #ffffff;
+    border-bottom: 1px solid red;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: initial;
+}
+
+.box-title {
+    background: #fff;
+}
+
+div#pills-tabContent {
+    padding: 1rem;
+    border: solid 1px #ccc;
+    border-radius: .25rem;
+}
+
+.box-image {
+    margin: 0 2rem;
+}
+
+.type__product {
+    padding-top: .3rem;
+    color: #9e9393;
+}
+
+.total__product {
+    padding-top: .3rem;
+    color: #9e9393;
+}
+
+.item-order {
+    padding-top: .4rem;
+}
+
+.info-top {
+    text-align: center;
+    padding: .4rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.text-underline {
+    text-transform: underline;
+}
+
+.price__product {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    font-size: .9rem;
+}
+
+.item-status {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: orange
+}
+
+.item-status:hover {
+    cursor: pointer;
+}
+
+.evaluate__order {
+    background: #f15308;
+    text-align: center;
+    color: #fff;
+    padding: .7rem 1rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.evaluate__order:hover {
+    background: #fff;
+    border: 1px solid red;
+    color: red
+}
+
+.cancelled__order__item,
+.buy__again,
+.show__detail__order {
+    border: 1px solid #493ea5;
+    color: #493ea5;
+    padding: .7rem 1rem;
+    text-align: center;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+
+.buy__again:hover,
+.show__detail__order:hover {
+    cursor: pointer;
+    color: red;
+    border: 1px solid red;
+}
+
+.mg-l-auto {
+    margin-left: auto
+}
+
+.btn__cancel {
+    border: 1px solid #493ea5;
+    padding: .7rem;
+    border-radius: .25rem;
+    color: #493ea5;
+}
+
+.btn__cancel:hover {
+    color: red;
+    border: 1px solid red
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.d_flex {
+    display: flex
+}
+
+
+/* sweetalert2 style */
+
+.swal2-content {
+    color: #464040;
+}
+
+.swal2-title {
+    color: #585454;
+}
+
+.swal2-popup {
+    background: #fff;
+}
+
+.text-line-through {
+    text-decoration: line-through;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
